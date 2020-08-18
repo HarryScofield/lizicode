@@ -1,5 +1,6 @@
-import express from 'express';
+// import express from 'express';
 
+var express  = require('express');
 //解决跨域问题
 app.all('*', (req, res, next) => {
     const { origin, Origin, referer, Referer } = req.headers;
